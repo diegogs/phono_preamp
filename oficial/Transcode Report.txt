@@ -1,0 +1,56 @@
+
+
+   ---- Transcoding 'F:\Diego\Documentos\eagle\phono_preamp\oficial\Muffsy-AK.GBS' ----   Wed Dec 07 16:22:14 2016
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'F:\Diego\Documentos\eagle\phono_preamp\oficial\Muffsy-AK.GTL' ----   Wed Dec 07 16:22:14 2016
+
+D10   --> D107
+D11   --> D108
+D12   --> D109
+D13   --> D110
+D14   --> D111
+D15   --> D112
+D16   --> D113
+D17   --> D114
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'F:\Diego\Documentos\eagle\phono_preamp\oficial\Muffsy-AK.GTO' ----   Wed Dec 07 16:22:14 2016
+
+D10   --> D115
+D11   --> D116
+D12   --> D117
+D13   --> D118
+D14   --> D119
+D15   --> D120
+D16   --> D121
+D17   --> D122
+D18   --> D123
+D19   --> D124
+D20   --> D125
+D21   --> D126
+D22   --> D127
+D23   --> D128
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'F:\Diego\Documentos\eagle\phono_preamp\oficial\Muffsy-AK.GTS' ----   Wed Dec 07 16:22:15 2016
+
+D10   --> D129
+D11   --> D130
+D12   --> D131
+D13   --> D132
+D14   --> D133
+D15   --> D134
+D16   --> D135
+-----------------------------------------------------------------
