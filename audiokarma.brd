@@ -61,10 +61,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="72.23" y2="-0.3" width="0" layer="20"/>
-<wire x1="72.23" y1="-0.3" x2="71.93" y2="41.81" width="0" layer="20"/>
-<wire x1="71.93" y1="41.81" x2="-0.1" y2="41.86" width="0" layer="20"/>
-<wire x1="-0.1" y1="41.86" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="72" y2="0" width="0" layer="20"/>
+<wire x1="72" y1="0" x2="72" y2="41" width="0" layer="20"/>
+<wire x1="72" y1="41" x2="0" y2="41" width="0" layer="20"/>
+<wire x1="0" y1="41" x2="0" y2="0" width="0" layer="20"/>
+<text x="2.2" y="25.65" size="0.8128" layer="25">L</text>
+<text x="2.2" y="15.7" size="0.8128" layer="25">R</text>
+<text x="2.8" y="19.5" size="0.8128" layer="25" rot="R90">AGND</text>
 </plain>
 <libraries>
 <library name="Panasonic-EEE0_EEE1_EEE2_EEEFC">
@@ -1728,13 +1731,13 @@ design rules under a new name.</description>
 <attribute name="MPN" value="EEE-FC1H220P" x="26.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9694579 " x="26.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="PANASONIC" x="26.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.7162" y="35.792" size="2.0828" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="27.7162" y="35.192" size="0.8128" layer="25" ratio="10" rot="SR0"/>
 </element>
 <element name="C5" library="rcl" package="C050-035X075" value="68nF" x="54" y="2" smashed="yes" rot="MR180">
-<attribute name="NAME" x="53.594" y="-5.159" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="54.956" y="2.491" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C7" library="rcl" package="C050-035X075" value="68nF" x="54" y="6.25" smashed="yes" rot="MR180">
-<attribute name="NAME" x="49.641" y="7.136" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="53.564" y="5.909" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="C16" library="Panasonic-EEE0_EEE1_EEE2_EEEFC" package="CAPAE830X650N" value="22UF" x="36.5" y="6.5" smashed="yes" rot="R90">
 <attribute name="VOLTAGERATING" value="50V" x="36.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1744,7 +1747,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="EEE-FC1H220P" x="36.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9694579 " x="36.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="PANASONIC" x="36.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.3662" y="-3.008" size="2.0828" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="34.3162" y="11.992" size="0.8128" layer="25" ratio="10" rot="SR0"/>
 </element>
 <element name="C18" library="Panasonic-EEE0_EEE1_EEE2_EEEFC" package="CAPAE830X650N" value="22UF" x="26.5" y="6.5" smashed="yes" rot="R90">
 <attribute name="VOLTAGERATING" value="50V" x="26.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1754,7 +1757,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="EEE-FC1H220P" x="26.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9694579 " x="26.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="PANASONIC" x="26.5" y="6.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.1162" y="4.642" size="2.0828" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="21.708" y="4.4162" size="0.8128" layer="25" ratio="10" rot="SR90"/>
 </element>
 <element name="C15" library="Panasonic-EEE0_EEE1_EEE2_EEEFC" package="CAPAE830X650N" value="22UF" x="36.5" y="29.5" smashed="yes" rot="R90">
 <attribute name="VOLTAGERATING" value="50V" x="36.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1764,19 +1767,19 @@ design rules under a new name.</description>
 <attribute name="MPN" value="EEE-FC1H220P" x="36.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="9694579 " x="36.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="PANASONIC" x="36.5" y="29.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.7162" y="35.992" size="2.0828" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="41.5162" y="29.942" size="0.8128" layer="25" ratio="10" rot="SR0"/>
 </element>
 <element name="C13" library="rcl" package="C0805" value="100nF" x="47.75" y="23" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.67" y="26.28" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="45.72" y="22.98" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C11" library="rcl" package="C0805" value="100nF" x="32.5" y="22" smashed="yes">
-<attribute name="NAME" x="38.16" y="22.46" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="34.26" y="23.96" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C3" library="rcl" package="C050-025X075" value="47nF" x="54" y="9.85" smashed="yes" rot="MR180">
-<attribute name="NAME" x="50.571" y="8.199" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="54.579" y="10.149" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C9" library="rcl" package="C050-050X075" value="1uF" x="58" y="14" smashed="yes" rot="MR180">
-<attribute name="NAME" x="54.571" y="11.079" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="58.529" y="14.179" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="H1" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="4.5" y="36" smashed="yes"/>
 <element name="IC1" library="burr-brown" package="SO08" value="OPA2134U" x="25" y="18" smashed="yes" rot="R270">
@@ -1784,36 +1787,36 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="35C1847" x="25" y="18" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="OPA2134UA" x="25" y="18" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1206935" x="25" y="18" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23.068" y="21.4305" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="20.9695" y="19.418" size="0.8128" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="IC2" library="burr-brown" package="SO08" value="OPA2134U" x="45" y="19" smashed="yes" rot="R270">
 <attribute name="MF" value="TEXAS INSTRUMENTS" x="45" y="19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="35C1847" x="45" y="19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="OPA2134UA" x="45" y="19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1206935" x="45" y="19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.768" y="22.6805" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="41.368" y="21.4305" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R1" library="rcl" package="R0805" value="150k" x="11.75" y="23.5" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.14" y="23.215" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="8.885" y="25.09" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R5" library="rcl" package="R0805" value="82k" x="16.76" y="23.5" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.62" y="25.965" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="8.935" y="23.92" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R6" library="rcl" package="R0805" value="33k" x="19.34" y="23.5" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.16" y="22.015" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="10.485" y="23.86" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R9" library="rcl" package="R0805" value="2k2" x="18" y="17.5" locked="yes" smashed="yes">
-<attribute name="NAME" x="14.595" y="18.21" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="15.495" y="17.61" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R2" library="rcl" package="R0805" value="110k" x="14.28" y="23.5" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.28" y="23.215" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="10.435" y="25.08" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="S1" library="switch-dil" package="CTS-219-04" value="219-04" x="15.53" y="31.84" locked="yes" smashed="yes">
 <attribute name="MF" value="" x="15.53" y="31.84" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="15.53" y="31.84" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="15.53" y="31.84" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.53" y="31.84" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.95" y="29.34" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="9.36" y="31.95" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="X2" library="con-wago-500" package="W237-102" value="" x="66" y="14" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="66" y="14" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1821,7 +1824,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="237-102" x="66" y="14" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="66" y="14" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="73.62" y="19.04" size="1.27" layer="28" ratio="10" rot="MR270"/>
-<attribute name="NAME" x="71.0038" y="17.8462" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="69.7462" y="14.3962" size="0.8128" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="X3" library="con-wago-500" package="W237-102" value="" x="66" y="25" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="66" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -1829,121 +1832,121 @@ design rules under a new name.</description>
 <attribute name="MPN" value="237-102" x="66" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="66" y="25" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="73.62" y="30.04" size="1.27" layer="28" ratio="10" rot="MR270"/>
-<attribute name="NAME" x="71.0038" y="28.8462" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="69.8462" y="25.6462" size="0.8128" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R13" library="rcl" package="R0805" value="3k3" x="23.5" y="22" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.705" y="21.38" size="1.27" layer="25"/>
+<attribute name="NAME" x="22.205" y="23.23" size="0.8128" layer="25"/>
 </element>
 <element name="R10" library="rcl" package="R0805" value="100" x="18" y="19.95" locked="yes" smashed="yes">
-<attribute name="NAME" x="14.595" y="20.68" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.145" y="20.63" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R15" library="rcl" package="R0805" value="16k" x="28" y="22" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.655" y="24.61" size="1.27" layer="25"/>
+<attribute name="NAME" x="27.155" y="23.26" size="0.8128" layer="25"/>
 </element>
 <element name="R17" library="rcl" package="R0805" value="2k2" x="52" y="13.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.925" y="9.64" size="1.27" layer="25"/>
+<attribute name="NAME" x="50.86" y="12.025" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="R18" library="rcl" package="R0805" value="130" x="49" y="13.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.73" y="12.865" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="47.88" y="12.115" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="R21" library="rcl" package="R0805" value="300" x="56" y="27" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.68" y="21.815" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="55.015" y="24.12" size="0.8128" layer="25"/>
 </element>
 <element name="R23" library="rcl" package="R0805" value="180" x="59" y="27" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.33" y="21.215" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="58.015" y="24.12" size="0.8128" layer="25"/>
 </element>
 <element name="R25" library="rcl" package="R0805" value="300" x="53" y="27" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.985" y="30.64" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="51.965" y="24.11" size="0.8128" layer="25"/>
 </element>
-<element name="GAIN_L" library="switch-dil" package="CTS-219-02" value="219-02" x="56" y="35" smashed="yes">
+<element name="S3" library="switch-dil" package="CTS-219-02" value="219-02" x="56" y="35" smashed="yes">
 <attribute name="MF" value="" x="56" y="35" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="56" y="35" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="56" y="35" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="56" y="35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.96" y="32.5" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="59.45" y="34.14" size="0.8128" layer="25"/>
 </element>
 <element name="R27" library="rcl" package="R0805" value="3k3" x="52" y="18.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.83" y="12.305" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="53.205" y="17.97" size="0.8128" layer="25"/>
 </element>
 <element name="R29" library="rcl" package="R0805" value="110k" x="58.5" y="18" smashed="yes">
-<attribute name="NAME" x="57.865" y="19.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.415" y="16.02" size="0.8128" layer="25"/>
 </element>
 <element name="R3" library="rcl" package="R0805" value="150k" x="11.75" y="2.25" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.58" y="-2.735" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="9.285" y="1.88" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R11" library="rcl" package="R0805" value="2k2" x="28" y="14" smashed="yes">
-<attribute name="NAME" x="24.665" y="14.36" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="26.935" y="11.94" size="0.8128" layer="25"/>
 </element>
 <element name="S2" library="switch-dil" package="CTS-219-04" value="219-04" x="15.53" y="10.27" locked="yes" smashed="yes">
 <attribute name="MF" value="" x="15.53" y="-12.59" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="15.53" y="-12.59" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="15.53" y="-12.59" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.53" y="-12.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.95" y="7.77" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="10.73" y="6.6" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C4" library="rcl" package="C050-025X075" value="47nF" x="46" y="9.85" smashed="yes" rot="MR180">
-<attribute name="NAME" x="42.571" y="8.199" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="46.629" y="10.249" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C10" library="rcl" package="C050-050X075" value="1uF" x="58" y="22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="54.571" y="19.079" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="58.879" y="22.179" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C6" library="rcl" package="C050-035X075" value="68nF" x="46" y="6.25" smashed="yes" rot="MR180">
-<attribute name="NAME" x="42.444" y="4.091" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="46.756" y="6.591" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C8" library="rcl" package="C050-035X075" value="68nF" x="46" y="2" smashed="yes" rot="MR180">
-<attribute name="NAME" x="42.444" y="-0.159" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="46.606" y="2.291" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R4" library="rcl" package="R0805" value="110k" x="14.22" y="2.25" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.7" y="-2.135" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="10.735" y="1.85" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R7" library="rcl" package="R0805" value="82k" x="16.77" y="2.25" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.25" y="0.615" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="20.365" y="0.25" size="0.8128" layer="25"/>
 </element>
 <element name="R8" library="rcl" package="R0805" value="33k" x="19.34" y="2.25" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.82" y="0.465" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="21.765" y="0.23" size="0.8128" layer="25"/>
 </element>
 <element name="R14" library="rcl" package="R0805" value="3k3" x="32.5" y="17" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.3" y="16.205" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="31.655" y="18.35" size="0.8128" layer="25"/>
 </element>
 <element name="R12" library="rcl" package="R0805" value="100" x="32.5" y="14" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.84" y="18.735" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="31.415" y="11.99" size="0.8128" layer="25"/>
 </element>
 <element name="R16" library="rcl" package="R0805" value="16k" x="38" y="19.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.47" y="19.305" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="37.645" y="13.97" size="0.8128" layer="25"/>
 </element>
 <element name="R19" library="rcl" package="R0805" value="2k2" x="43" y="13.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.93" y="13.765" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="41.88" y="12.265" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="R20" library="rcl" package="R0805" value="130" x="46" y="13.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.28" y="15.215" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="44.88" y="12.165" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="R22" library="rcl" package="R0805" value="300" x="47" y="27" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.08" y="21.715" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="45.915" y="24.12" size="0.8128" layer="25"/>
 </element>
 <element name="R24" library="rcl" package="R0805" value="180" x="50" y="27" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.98" y="21.315" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="49.165" y="24.12" size="0.8128" layer="25"/>
 </element>
 <element name="R26" library="rcl" package="R0805" value="300" x="44" y="27" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.73" y="26.365" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="43.265" y="24.07" size="0.8128" layer="25"/>
 </element>
-<element name="GAIN_R" library="switch-dil" package="CTS-219-02" value="219-02" x="48" y="35" smashed="yes">
+<element name="S4" library="switch-dil" package="CTS-219-02" value="219-02" x="48" y="35" smashed="yes">
 <attribute name="MF" value="" x="31.49" y="-103.43" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="31.49" y="-103.43" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="31.49" y="-103.43" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="31.49" y="-103.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.96" y="32.5" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="43.2" y="33.94" size="0.8128" layer="25"/>
 </element>
 <element name="R28" library="rcl" package="R0805" value="3k3" x="38" y="22" smashed="yes">
-<attribute name="NAME" x="37.365" y="23.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.665" y="15.02" size="0.8128" layer="25"/>
 </element>
 <element name="R30" library="rcl" package="R0805" value="110k" x="62" y="27" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.27" y="27.635" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="61.015" y="24.12" size="0.8128" layer="25"/>
 </element>
 <element name="C12" library="rcl" package="C0805" value="100nF" x="23" y="14" smashed="yes">
-<attribute name="NAME" x="20.28" y="14.66" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="22.07" y="11.94" size="0.8128" layer="25"/>
 </element>
 <element name="C14" library="rcl" package="C0805" value="100nF" x="38" y="17" smashed="yes">
-<attribute name="NAME" x="35.83" y="14.32" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.63" y="12.92" size="0.8128" layer="25"/>
 </element>
 <element name="X4" library="con-wago-500" package="W237-103" value="" x="36.5" y="38.5" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="18M7116" x="36.5" y="38.5" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1951,7 +1954,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="36.5" y="38.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="36.5" y="38.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="41.8048" y="33.5524" size="1.27" layer="28" ratio="10" rot="MR0"/>
-<attribute name="NAME" x="42.1858" y="31.0378" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="34.7858" y="35.1378" size="0.8128" layer="26" ratio="10" rot="MR0"/>
 </element>
 <element name="H2" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="67" y="36" smashed="yes"/>
 <element name="H3" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="4.5" y="4.5" smashed="yes"/>
@@ -1962,13 +1965,13 @@ design rules under a new name.</description>
 <attribute name="MPN" value="237-103" x="4.04" y="21.02" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="4.04" y="21.02" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="8.9876" y="26.3248" size="1.27" layer="28" ratio="10" rot="MR270"/>
-<attribute name="NAME" x="11.5022" y="26.7058" size="1.27" layer="26" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="2.3942" y="29.2478" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="0-200p" x="13" y="20" smashed="yes">
-<attribute name="NAME" x="11.73" y="21.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="7.63" y="19.82" size="0.8128" layer="25"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="0-200p" x="8" y="10" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.27" y="11.27" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="5.43" y="9.97" size="0.8128" layer="25"/>
 </element>
 <element name="JP1" library="pinhead" package="1X02" value="" x="24.5" y="37" rot="MR0"/>
 </elements>
@@ -2091,8 +2094,8 @@ design rules under a new name.</description>
 <wire x1="49.95" y1="14.45" x2="49" y2="14.45" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$26">
-<contactref element="GAIN_L" pad="4"/>
-<contactref element="GAIN_L" pad="3"/>
+<contactref element="S3" pad="4"/>
+<contactref element="S3" pad="3"/>
 <contactref element="R27" pad="2"/>
 <contactref element="R25" pad="2"/>
 <contactref element="IC2" pad="6"/>
@@ -2114,7 +2117,7 @@ design rules under a new name.</description>
 <wire x1="51" y1="17.55" x2="50.2" y2="18.35" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$27">
-<contactref element="GAIN_L" pad="1"/>
+<contactref element="S3" pad="1"/>
 <contactref element="R21" pad="2"/>
 <wire x1="56" y1="27.95" x2="55.9" y2="27.95" width="0.6096" layer="1"/>
 <wire x1="55.9" y1="27.95" x2="54.75" y2="29.1" width="0.6096" layer="1"/>
@@ -2122,7 +2125,7 @@ design rules under a new name.</description>
 <wire x1="54.75" y1="30.68" x2="54.73" y2="30.7" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$28">
-<contactref element="GAIN_L" pad="2"/>
+<contactref element="S3" pad="2"/>
 <contactref element="R23" pad="2"/>
 <wire x1="59" y1="27.95" x2="59" y2="28.97" width="0.6096" layer="1"/>
 <wire x1="59" y1="28.97" x2="57.27" y2="30.7" width="0.6096" layer="1"/>
@@ -2267,8 +2270,8 @@ design rules under a new name.</description>
 <wire x1="43.05" y1="12.5" x2="43" y2="12.55" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$34">
-<contactref element="GAIN_R" pad="4"/>
-<contactref element="GAIN_R" pad="3"/>
+<contactref element="S4" pad="4"/>
+<contactref element="S4" pad="3"/>
 <contactref element="R28" pad="2"/>
 <contactref element="R26" pad="2"/>
 <contactref element="IC2" pad="2"/>
@@ -2292,13 +2295,13 @@ design rules under a new name.</description>
 <wire x1="42.3988" y1="19.65" x2="42.3838" y2="19.635" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$35">
-<contactref element="GAIN_R" pad="1"/>
+<contactref element="S4" pad="1"/>
 <contactref element="R22" pad="2"/>
 <wire x1="47" y1="27.95" x2="46.73" y2="27.95" width="0.6096" layer="1"/>
 <wire x1="46.73" y1="27.95" x2="46.73" y2="30.7" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$36">
-<contactref element="GAIN_R" pad="2"/>
+<contactref element="S4" pad="2"/>
 <contactref element="R24" pad="2"/>
 <wire x1="50" y1="27.95" x2="49.27" y2="27.95" width="0.6096" layer="1"/>
 <wire x1="49.27" y1="27.95" x2="49.27" y2="30.7" width="0.6096" layer="1"/>

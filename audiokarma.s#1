@@ -9646,8 +9646,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="X1" library="con-wago-500" deviceset="W237-103" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0-200p"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="0-200p"/>
-<part name="SUPPLY10" library="supply2" deviceset="AGND" device=""/>
-<part name="SUPPLY11" library="supply2" deviceset="AGND" device=""/>
+<part name="SUPPLY1" library="supply2" deviceset="AGND" device=""/>
+<part name="SUPPLY2" library="supply2" deviceset="AGND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
@@ -9687,7 +9687,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R6" gate="G$1" x="177.8" y="58.42" smashed="yes" rot="R90">
 <attribute name="VALUE" x="181.102" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="H1" gate="G$1" x="45.72" y="114.3"/>
+<instance part="H1" gate="G$1" x="213.36" y="132.08"/>
 <instance part="R13" gate="G$1" x="233.68" y="71.12"/>
 <instance part="R10" gate="G$1" x="215.9" y="60.96" rot="R90"/>
 <instance part="R15" gate="G$1" x="256.54" y="78.74" rot="R90"/>
@@ -9751,9 +9751,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY4" gate="G$1" x="226.06" y="76.2"/>
 <instance part="SUPPLY5" gate="G$1" x="297.18" y="33.02"/>
 <instance part="SUPPLY6" gate="G$1" x="299.72" y="10.16"/>
-<instance part="H2" gate="G$1" x="81.28" y="119.38"/>
-<instance part="H3" gate="G$1" x="116.84" y="121.92"/>
-<instance part="H4" gate="G$1" x="157.48" y="124.46"/>
+<instance part="H2" gate="G$1" x="213.36" y="124.46"/>
+<instance part="H3" gate="G$1" x="238.76" y="132.08"/>
+<instance part="H4" gate="G$1" x="238.76" y="124.46"/>
 <instance part="X1" gate="-1" x="106.68" y="91.44" smashed="yes">
 <attribute name="NAME" x="106.68" y="92.329" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -9763,8 +9763,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="X1" gate="-3" x="129.54" y="12.7"/>
 <instance part="C1" gate="G$1" x="129.54" y="71.12"/>
 <instance part="C2" gate="G$1" x="144.78" y="-12.7"/>
-<instance part="SUPPLY10" gate="G$1" x="167.64" y="35.56"/>
-<instance part="SUPPLY11" gate="G$1" x="172.72" y="-45.72"/>
+<instance part="SUPPLY1" gate="G$1" x="167.64" y="35.56"/>
+<instance part="SUPPLY2" gate="G$1" x="172.72" y="-45.72"/>
 <instance part="JP1" gate="G$1" x="563.88" y="30.48"/>
 </instances>
 <busses>
@@ -10191,7 +10191,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="45.72" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="AGND"/>
+<pinref part="SUPPLY1" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -10240,7 +10240,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="139.7" y="-50.8" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="-35.56" x2="144.78" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="G$1" pin="AGND"/>
+<pinref part="SUPPLY2" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
